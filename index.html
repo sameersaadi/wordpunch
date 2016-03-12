@@ -1,0 +1,47 @@
+<head>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        #logo {
+            padding: 1em;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+        #video {
+            padding: 1em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+        #googleplay {
+            right: 10px;
+            position: absolute;
+        }
+        #appstore {
+            left: 10px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="http://itunes.com/app/wordpunch"><img id="appstore" src="appstore.jpg" title="Download from Apple Store"></a>
+    <a href="https://play.google.com/store/apps/details?id=com.s2elements.wordpunch&hl=en"><img id="googleplay" src="googleplay.jpg" title="Download from Google Play Store"></a>
+
+    <h1>WordPunch</h1>
+    <h2>How many words can you knock out in 100 seconds?</h2>
+    <img id="logo" src="WordPunchLogo.png" style="pointer-events: auto;" title="WordPunch">
+    <iframe id="video" src="https://player.vimeo.com/video/83651293" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</body>
